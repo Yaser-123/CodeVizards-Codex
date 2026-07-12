@@ -30,6 +30,48 @@
 - NVIDIA NIM APIs (MiniMax M3 model)
 - *Prompt Engineered down to a highly efficient 120-token footprint for lightning-fast, low-cost autonomous decision-making.*
 
+## 🚀 How to Run Locally
+
+### 1. Clone & Install
+```bash
+git clone https://github.com/Yaser-123/CodeVizards-Codex.git
+cd CodeVizards-Codex
+
+# Install backend dependencies
+cd genesis-backend
+npm install
+
+# Install frontend dependencies
+cd ../genesis-dashboard
+npm install
+```
+
+### 2. Environment Variables (`.env`)
+You must provide your NVIDIA API key for the AI agents to function. Create a `.env` file in the `genesis-backend` folder:
+
+```bash
+# genesis-backend/.env
+NVIDIA_API_KEY=your_nvidia_api_key_here
+PORT=4000
+```
+
+### 3. Start the Simulation
+Open two terminals.
+
+**Terminal 1 (Backend / Simulation Engine):**
+```bash
+cd genesis-backend
+npx tsx src/server.ts
+```
+
+**Terminal 2 (Frontend Dashboard):**
+```bash
+cd genesis-dashboard
+npm run dev
+```
+
+Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the live dashboard!
+
 ## 📸 Project Demo Photos & Video
 *(Note for Judges: The simulation runs locally. Below are snapshots of the live environment, along with our full demo video).*
 
