@@ -73,9 +73,10 @@ npm run dev
 Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the live dashboard!
 
 ## 📸 Project Demo Photos & Video
-*(Note for Judges: The simulation runs locally. Below are snapshots of the live environment, along with our full demo video).*
+*(Note for Judges: The simulation runs locally. Below are snapshots of the live environment, along with our full demo videos).*
 
-### 🎥 [Watch the Full Demo Video Here](https://drive.google.com/file/d/1SwH9uMoYVm1wi2VkIf1DebrhOD47MflD/view?usp=sharing)
+### 🎥 [Watch the Full Project Pitch Video Here](https://drive.google.com/file/d/1SwH9uMoYVm1wi2VkIf1DebrhOD47MflD/view?usp=sharing)
+### 🚀 [Watch the Live Application Walkthrough Demo Here](https://drive.google.com/file/d/1Kg3nWPN0cGfnppCCQde8CM2aePnU2N8k/view?usp=sharing)
 
 <div align="center">
   <img src="./genesis-dashboaed.png" alt="Genesis Dashboard" width="800" />
